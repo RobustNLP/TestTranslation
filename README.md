@@ -6,7 +6,7 @@ This project provides a toolkit for automated machine translation testing, which
 + [**ICSE'20**] Pinjia He, Clara Meister, Zhendong Su. [Structure-Invariant Testing for Machine Translation](https://arxiv.org/pdf/1907.08710.pdf). *International Conference on Software Engineering (ICSE)*, 2020.
 + [**ESEC/FSE'20**] Shashij Gupta, Pinjia He, Clara Meister, Zhendong Su. [Machine Translation Testing via Pathological Invariance](https://pinjiahe.github.io/papers/ESECFSE20.pdf). *ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)*, 2020.
 
-### Log parsers currently available:
+### testing approach currently available:
 
 | Tools | References |
 | :--- | :--- |
