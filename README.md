@@ -10,7 +10,7 @@ This project provides a toolkit for automated machine translation testing, which
 
 | Tools | References |
 | :--- | :--- |
-| SIT | [**ICSE'2O**] [Structure-Invariant Testing for Machine Translation](https://arxiv.org/pdf/1907.08710.pdf), by Pinjia He, Clara Meister, Zhendong Su. |
+| SIT | [**ICSE'20**] [Structure-Invariant Testing for Machine Translation](https://arxiv.org/pdf/1907.08710.pdf), by Pinjia He, Clara Meister, Zhendong Su. |
 | TransRepair-ED | [**ICSE'20**] [Automatic Testing and Improvement of Machine Translation](https://arxiv.org/pdf/1910.02688.pdf), by Zeyu Sun, Jie M. Zhang, Mark Harman, Mike Papadakis, Lu Zhang.  |
 | PatInv | [**ESEC/FSE'20**] [Clustering Event Logs Using Iterative Partitioning](https://pinjiahe.github.io/papers/ESECFSE20.pdf), by Shashij Gupta, Pinjia He, Clara Meister, Zhendong Su. |
 
