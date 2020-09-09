@@ -35,21 +35,14 @@ def similarity(vec1, vec2):
 print("creating dictionary...")
 
 filtered_words = []
-count = 0
-count2 = 0
-count3 = 0
+
 similarity_dict = defaultdict(list)
 spacy_stopwords = spacy.lang.en.stop_words.STOP_WORDS
 for word in sorted(glove_dict.keys()):
 	if len(word) < 3 or not word in valid_eng_words\
 		or word not in spacy_dict.vocab or np.count_nonzero(get_spacy_vec(word)) == 0:
 		continue
-	count += 1
-	if count % 100 == 0:
-		print(count, "words done...")
-		print(count2)
-		print(count3)
-		count3 = 0
+	
 	for other_word in glove_dict.keys():
 		# already encountered...
 		if other_word <= word or not other_word in valid_eng_words\
@@ -57,10 +50,9 @@ for word in sorted(glove_dict.keys()):
 			continue
 		similarity1 = similarity(get_glove_vec(word), get_glove_vec(other_word))
 		similarity2 = similarity(get_spacy_vec(word), get_spacy_vec(other_word))
-		count3 += 1
+
 		if similarity1 > 0.8 and similarity2 > 0.8:
 			print('here')
-			count2 += 1
 			similarity_dict[word].append(other_word)
 			similarity_dict[other_word].append(word)
 	print(word)
