@@ -466,7 +466,7 @@ with open("data/business_bert_output_replace.dat", 'wb') as f:
 	pickle.dump(syntactically_similar_sentences, f)
 
 # Load dictionary of synonyms for each word
-with open("data/synonyms.dat", 'rb') as f:
+with open("synonyms.dat", 'rb') as f:
 	synonyms = pickle.load(f)
 
 # Filtering by synonyms and filtering by constituency structure
