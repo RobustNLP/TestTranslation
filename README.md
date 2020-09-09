@@ -19,7 +19,6 @@ This project provides a toolkit for automated machine translation testing, which
 
 Code organization:
 
-+ [results](./ErroneousTranslation): the erroneous translations reported by different approaches.
 + [code](./code): the machine translation testing package
 + [dataset](./dataset): seed sentences for translation testing.
 
