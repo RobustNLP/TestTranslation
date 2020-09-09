@@ -441,7 +441,7 @@ def detecting_translation_errors(filtered_sent, translation_dic, filename):
 ########################Main code#############################
 
 # Path of dataset to be used to find translation errors
-dataset = "dataset/business"
+dataset = "../dataset/business"
 # Bing Translate
 bing_translate_api_key = 'enter the API key for Bing Microsoft Translate'
 
