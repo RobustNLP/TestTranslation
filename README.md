@@ -1,5 +1,7 @@
 # Machine Translation Testing
 
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE.md)
+
 This project provides a toolkit for automated machine translation testing, which is the first step towards robust and practical machine translation. By applying the toolkit, users can automatically find translation errors caused by any machine translation models. 
 
 :telescope: If you use any of our tools or datasets in your research for publication, please kindly cite the following papers.
