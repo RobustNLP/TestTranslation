@@ -6,6 +6,31 @@ This project provides a toolkit for automated machine translation testing, which
 + [**ICSE'20**] Pinjia He, Clara Meister, Zhendong Su. [Structure-Invariant Testing for Machine Translation](https://arxiv.org/pdf/1907.08710.pdf). *International Conference on Software Engineering (ICSE)*, 2020.
 + [**ESEC/FSE'20**] Shashij Gupta, Pinjia He, Clara Meister, Zhendong Su. [Machine Translation Testing via Pathological Invariance](https://pinjiahe.github.io/papers/ESECFSE20.pdf). *ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)*, 2020.
 
+### Input:
+
+A list of sentence in source language. For example:
+
+|Sentences:|
+| :--- |
+| I live on campus with smart people. |
+| I like basketball. |
+
+### Output:
+
+A list of suspicious issues. Each issue contains a pair of sentences in source language and their translations.
+
+|Suspicious issue 1:|
+| :--- |
+| I live on campus with smart people. -> 我和聪明的人住在校园里。(Meaning: I live on campus with smart people.) |
+| I live on campus with tall people. -> 我住在校园里，身材高大。(Meaning: I live on campus, I am tall.) |
+
+|Suspicious issue 2:|
+| :--- |
+| I like hiking. -> 我喜欢徒步。(Meaning: I like hiking.) |
+| I hate hiking. -> 我喜欢徒步。(Meaning: I like hiking.) |
+
+Note the meanings of the translations (in parentheses) are not part of the output and they are presented here for clarity.
+
 ### Testing approach currently available:
 
 | Tools | References |
