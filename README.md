@@ -17,7 +17,7 @@ A list of sentence in source language. For example:
 
 ### Output:
 
-A list of suspicious issues. Each issue contains a pair of sentences in source language and their translations.
+A list of suspicious issues. Each issue contains a pair of sentences in source language and their translations. For example (en->zh):
 
 |Suspicious issue 1:|
 | :--- |
@@ -47,7 +47,11 @@ Code organization:
 + [code](./code): the machine translation testing package
 + [dataset](./dataset): seed sentences for translation testing.
 
+APIs provided by Google and Microsoft:
 
++ For Google Translate, useful tips could be found here: [\[G1\]](https://cloud.google.com/translate/docs/basic/setup-basic)[\[G2\]](https://neliosoftware.com/blog/how-to-generate-an-api-key-for-google-translate/?nab=0&utm_referrer=https%3A%2F%2Fwww.google.com%2F). 
++ For Bing Microsoft Translator, after getting your API key string, you need to copy that into the [apikey](./code/SIT/SIT.py#L171) string (e.g., for SIT). Useful tips: [\[B1\]](https://azure.microsoft.com/en-us/services/cognitive-services/translator-text-api/)[\[B2\]](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/translator-text-how-to-signup)
++ If you intend to test Bing Microsoft Translator using your own approach, the [bingtranslate](./code/SIT/SIT.py#L18) method can be utilized. 
 
 ### Feedback
 For any questions or feedback, please post to [the issue page](https://github.com/RobustNLP/TestTranslation/issues). 
