@@ -40,6 +40,8 @@ Note the meanings of the translations (in parentheses) are not part of the outpu
 | SIT | [**ICSE'20**] [Structure-Invariant Testing for Machine Translation](https://arxiv.org/pdf/1907.08710.pdf), by Pinjia He, Clara Meister, Zhendong Su. |
 | TransRepair-ED | [**ICSE'20**] [Automatic Testing and Improvement of Machine Translation](https://arxiv.org/pdf/1910.02688.pdf), by Zeyu Sun, Jie M. Zhang, Mark Harman, Mike Papadakis, Lu Zhang.  |
 | PatInv | [**ESEC/FSE'20**] [Machine Translation Testing via Pathological Invariance](https://pinjiahe.github.io/papers/ESECFSE20.pdf), by Shashij Gupta, Pinjia He, Clara Meister, Zhendong Su. |
+| SemMT | [**arXiv'20**] [SemMT: A Semantic-based Testing Approach for Machine Translation Systems](https://arxiv.org/abs/2012.01815), by Jialun Cao, Meiziniu Li, Yeting Li, Ming Wen, Shing-Chi Cheung. |
+| RTI | [**ICSE'21**] [Testing Machine Translation via Referential Transparency](https://pinjiahe.github.io/papers/ICSE21.pdf), by Pinjia He, Clara Meister, Zhendong Su. |
 
 
 ### Get started
