@@ -22,7 +22,7 @@ from nltk.stem import WordNetLemmatizer
 from nltk.stem import WordNetLemmatizer
 from nltk.stem.snowball import SnowballStemmer
 from nltk.corpus import wordnet
-from use.use import UseSimilarity
+from use import UseSimilarity
 
 def perturb(sentence, bertmodel, num):
 	"""Generate a list of similar sentences by BERT
