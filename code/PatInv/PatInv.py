@@ -242,7 +242,7 @@ def generate_syntactically_similar_sentences_remove(dataset):
                 for y in range(20):
                     try:
                         new_sent = replacenth(sent,t,"",y+1).replace("  "," ")
-                        dic[line].append(sent)
+                        dic[line].append(new_sent)
                     except:
                         break
     return dic
